@@ -18,6 +18,8 @@ target/
 *.iws
 *.iml
 *.ipr
+src/main/resources/env.properties
+
 
 ### NetBeans ###
 /nbproject/private/

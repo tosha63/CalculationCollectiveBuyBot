@@ -12,9 +12,10 @@
 	<artifactId>calculation_collective_buy_bot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>calculation_collective_buy_bot</name>
-	<description>Telgeram bot for calculation of collective costs</description>
+	<description>Telеgram bot for calculation of collective costs</description>
 	<properties>
 		<java.version>11</java.version>
+		<telegrambot.starter.version>6.1.0</telegrambot.starter.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -26,6 +27,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.telegram</groupId>
+			<artifactId>telegrambots-spring-boot-starter</artifactId>
+			<version>${telegrambot.starter.version}</version>
 		</dependency>
 	</dependencies>
 
