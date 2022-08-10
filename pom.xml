@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.github.shtanko.tgbot</groupId>
 	<artifactId>calculation_collective_buy_bot</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.0-SNAPSHOT</version>
 	<name>calculation_collective_buy_bot</name>
 	<description>Telеgram bot for calculation of collective costs</description>
 	<properties>
