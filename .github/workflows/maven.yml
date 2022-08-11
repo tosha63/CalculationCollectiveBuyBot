@@ -26,4 +26,4 @@ jobs:
       env:
         BOT_USERNAME: ${{ secrets.BOT_USERNAME }}
         BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-      run: mvn -Dbot.username="$BOT_USERNAME" -Dbot.token="$BOT_TOKEN" -B package --file pom.xml
+      run: mvn -B package --file pom.xml
