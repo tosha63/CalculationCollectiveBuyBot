@@ -25,5 +25,5 @@ jobs:
     - name: Build with Maven
       env:
         BOT_USERNAME: ${{ secrets.BOT_USERNAME }}
-        BOT.TOKEN: ${{ secrets.BOT_TOKEN }}
+        BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
       run: mvn -B package --file pom.xml
